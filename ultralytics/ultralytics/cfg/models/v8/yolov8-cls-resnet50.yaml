@@ -1,0 +1,17 @@
+\# YOLOv5 🚀 by Ultralytics, AGPL-3.0 license
+# COCO128 dataset https://www.kaggle.com/ultralytics/coco128 (first 128 images from COCO train2017) by Ultralytics
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+# train: /repository7504/AbnormalObjectDetetionDataset/01_labeled_wsi/20220419_new_data/20231103_bert_yolo_data/train.txt  # train images (relative to 'path') 128 images
+# val: /repository7504/AbnormalObjectDetetionDataset/01_labeled_wsi/20220419_new_data/20231103_bert_yolo_data/val.txt  # val images (relative to 'path') 128 images
+# test:  # test images (optional)
+
+train: /repository7502/lichaowei_data/00_实验相关/05_20231105_bertyolo_data/train/train.txt
+val: /repository7502/lichaowei_data/00_实验相关/05_20231105_bertyolo_data/val/val.txt
+
+
+# Classes
+names:
+  0: ASC-US
+  1: LSIL
+  2: ASC-H
+  3: HSIL
